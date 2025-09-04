@@ -1,0 +1,17 @@
+/* Make all cards same height */
+.card {
+  height: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Make card images uniform */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Hover effect: slightly lift the card and add shadow */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
